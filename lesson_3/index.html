@@ -1,27 +1,62 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Getting hands dirty</title>
-	</head>
-	<body>
-		<h1>Twenty third mini website</h1>
-		<img src="images/carrots.jpg" alt="Dusty carrots" height="375" width "500">
+<head>
+	<title>Forms, Tables, Special Characters</title>
+</head>
+<body>
+	<h1>Forms, Tabes, &amp; Special Characters</h1>
+	<p>This is a page about what you see above &amp; maybe more.</p>
 
-		<ul>
-			<li><a href="vegetables.html">Veggies are amazing</a></li>
-			<li><a href="images.html">Images are good</a></li>
-			<li><a href="address.html">Here is where I live</a></li>
-			<li><a href="links.html">Hyperlinks</a></li>
-		</ul>
+	<h2>Some tabular data</h2>
+	<table>
+		<tr>
+			<th>Name</th>
+			<th>Email</th>
+			<th>Gender</th>
+		</tr>
+		<tr>
+			<td>Arti</td>
+			<td>foo@bar.com</td>
+			<td>F</td>
+		</tr>
+		<tr>
+			<td>Meg</td>
+			<td>fo@bar.com</td>
+			<td>F</td>
+		</tr>
+		<tr>
+			<td>Arun</td>
+			<td>aro@bar.com</td>
+			<td>M</td>
+		</tr>
+		<tr>
+			<td>Maya</td>
+			<td>mayro@bar.com</td>
+			<td>F</td>
+		</tr>
+	</table>
 
-		<h2>Come visit:</h2>
+	<h3>Add your data here <em>not really</em></h3>
 
-		<address>
-			<ul>
-				<li>Foo Street</li>
-				<li>Bar Town</li>
-				<li>90210</li>
-			</ul>
-		</address>
-	</body>
+	<form>
+		<fieldset>
+			<legend>Your Info</legend>
+			Name: <input type="text" placeholder="Name here"><br>
+			Email: <input type="email" placeholder="emails@here.com"><br><br>
+
+			Gender: 
+			<input type="radio" name="gender">Male<br>
+			<input type="radio" name="gender">Female
+
+			<br><br>
+
+			<input type="submit" value="Save">
+			<input type="reset" value="Clear">
+
+		</fieldset>
+	</form>
+
+	<h4>Some Copyright info</h4>
+	This page is copyright &copy; 2013 nobody &raquo;
+</body>
 </html>

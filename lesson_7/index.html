@@ -1,40 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="dirty.css">
-	<title>Dirty Hands</title>
-</head>
-<body>
+	<title>El Amigo Pub + Grill</title>
 
+	<link rel="stylesheet" type="text/css" href="dirty.css">
+</head>
+
+<body>
 	<div id="container">
 		<div id="header">
-			<h1>Welcome to my website</h1>
-			<p class="lead">
-				This is a minimalist website with very little info. At least it's beautiful.
+			<a href="/." title="Return to Home Page" id="logo">
+				<img src="images/logo.png" alt="El Amigo Pub + Grill. Best Craft Beer in Spain.">
+			</a>
+		</div>
+
+		<div id="content" class="content-block">
+			<h1>The Best Craft Beer in Spain!</h1>
+
+			<p>Bienvenido, amigos! We are at a completely fictional location. But that doesn't mean we can't imagine that we have the best beer in Spain!
 			</p>
 		</div>
 
-		<div class="blog-post">
-			<h2>Blog Post Title</h2>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-			<em>Posted by <strong>Foo Bar</strong></em>
+		<div id="reserve" class="content-block">
+			<h2>Make a Reservation</h2>
+
+			<p>Get your spot before somebody else does!</p>
+
+			<form>
+				<label for="your_name">Your Name:</label>
+				<input type="text" id="your_name" placeholder="Jane B. Goode">
+
+				<label for="your_email">Your Email:</label>
+				<input type="email" id="your_name" placeholder="your@email.com">
+
+				<label for="your_time">Your Time:</label>
+				<input type="text" id="your_time" placeholder="Tomorrow at 10 PM">
+
+				<input type="submit" value="Reserve">
+			</form>
 		</div>
 
-		<div class="blog-post">
-			<h2>Blog Post Title</h2>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-			<em>Posted by <strong>Foo Bar</strong></em>
+		<div id="footer" class="content-block">
+			&copy; 2014 El Amigo.
 		</div>
 
-		<div id="footer">
-			<h3>Thanks for visiting!</h3>
-			<p>&copy; 2014 artismarti</p>
-		</div>
-	</div><!-- end container -->
-
+	</div> <!-- container -->
 </body>
 </html>

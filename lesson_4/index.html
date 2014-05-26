@@ -1,62 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Forms, Tables, Special Characters</title>
+	<title>Getting HAnds Dirty</title>
 </head>
 <body>
-	<h1>Forms, Tabes, &amp; Special Characters</h1>
-	<p>This is a page about what you see above &amp; maybe more.</p>
+	<header id="main-header">
+		<h1>Blog post Web Page</h1>
+		<p>This is a sample blog post article</p>
+	</header> <!--end main-header -->
 
-	<h2>Some tabular data</h2>
-	<table>
-		<tr>
-			<th>Name</th>
-			<th>Email</th>
-			<th>Gender</th>
-		</tr>
-		<tr>
-			<td>Arti</td>
-			<td>foo@bar.com</td>
-			<td>F</td>
-		</tr>
-		<tr>
-			<td>Meg</td>
-			<td>fo@bar.com</td>
-			<td>F</td>
-		</tr>
-		<tr>
-			<td>Arun</td>
-			<td>aro@bar.com</td>
-			<td>M</td>
-		</tr>
-		<tr>
-			<td>Maya</td>
-			<td>mayro@bar.com</td>
-			<td>F</td>
-		</tr>
-	</table>
+	<article class="blog-post">
+		<section class="post-head">
+			<h2>This is the title</h2>
+			<p>This was written on <time datetime="2014-05-13 23:20">Aug 1 2013</time></p>
+		</section>
 
-	<h3>Add your data here <em>not really</em></h3>
+		<section class="blog-body">
+			<p>This is the body. I will write <abbr title="HyperText Markup">HTML</abbr></p>
 
-	<form>
-		<fieldset>
-			<legend>Your Info</legend>
-			Name: <input type="text" placeholder="Name here"><br>
-			Email: <input type="email" placeholder="emails@here.com"><br><br>
+			<p>Here I want to quote <span class="Gabbar">"Gabbar Singh"</span> - <q>Jo Dar Gaya, Samjho Mar Gaya</q></p>
+			<blockquote cite="http://foo.com">
+				<p>Jo Dar Gaya, Samjho Mar Gaya. Jo Dar Gaya, Samjho Mar Gaya. Jo Dar Gaya, Samjho Mar Gaya...
+				</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+			</blockquote>
 
-			Gender: 
-			<input type="radio" name="gender">Male<br>
-			<input type="radio" name="gender">Female
+		</section>
 
-			<br><br>
+		<section class="blog-footer">
+			<h3>Like this article?</h3>
+				<ul>
+					<li><a href="header-footer.html">Header &amp; Footer</a></li>
+					<li><a href="ids-classes.html">IDs &amp; Classes</a></li>
+					<li><a href="span-div.html">Span &amp; Div</a></li>
+				</ul>
+		</section>
 
-			<input type="submit" value="Save">
-			<input type="reset" value="Clear">
+	</article><!-- end blog-post -->
 
-		</fieldset>
-	</form>
+	<aside id="main-sidebar">
+		<div id="author-info">
+			<h4>About the Author.</h4>
+			<p>This is a bio of the lady who wrote this.</p>
+		</div>
 
-	<h4>Some Copyright info</h4>
-	This page is copyright &copy; 2013 nobody &raquo;
+	</aside>
+
+	<footer id="main-footer">
+		<div class="main-footer">&copy; 2014 Arti Smarti</colgroup></div>
+
+	</footer>
 </body>
 </html>
